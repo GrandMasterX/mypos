@@ -19,9 +19,9 @@
 		}
 	],
 	"autoload": {
-		"psr-0": {
-			"api": "api/"
-		}
+		"classmap": [
+			"api/"
+		]
 	},
 	"extra": {
 		"branch-alias": {
