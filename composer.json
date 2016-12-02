@@ -19,9 +19,7 @@
 		}
 	],
 	"autoload": {
-		"classmap": [
-			"api/"
-		]
+		"psr-4": {"grandmasterx\\mypos\\": "api/"}
 	},
 	"extra": {
 		"branch-alias": {
