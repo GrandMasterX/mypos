@@ -19,7 +19,9 @@
 		}
 	],
 	"autoload": {
-		"psr-4": {"grandmasterx\\mypos\\": "api/"}
+		"psr-4": {
+			"grandmasterx\\mypos\\api\\": "api/"
+		}
 	},
 	"extra": {
 		"branch-alias": {
