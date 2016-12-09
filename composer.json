@@ -6,10 +6,11 @@
 	"description": "Simple PHP Wrapper for myPOS API",
 	"type": "library",
 	"keywords": [
-		"twitter",
-		"PHP",
+		"myPOS",
+		"payment system",
 		"API"
 	],
+	"minimum-stability": "stable",
 	"homepage": "https://github.com/GrandMasterX/mypos",
 	"license": "MIT Public License",
 	"authors": [
@@ -19,7 +20,7 @@
 		}
 	],
 	"autoload": {
-		"psr-0": {
+		"psr-4": {
 			"grandmasterx\\mypos\\api\\": "api/"
 		}
 	}
